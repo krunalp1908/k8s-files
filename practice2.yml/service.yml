@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx-service
+  namespace: practice
+spec:
+  selector:
+    app: nginx   # Use the appropriate label to match your pod
+  ports:
+    - protocol: TCP
+      port: 80       # Port in the service
+      targetPort: 80
