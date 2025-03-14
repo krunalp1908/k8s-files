@@ -2,6 +2,7 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: mysql-config
+  namespace: todo-list
   labels:
     app: todo
 data:

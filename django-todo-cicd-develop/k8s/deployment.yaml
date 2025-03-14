@@ -6,6 +6,8 @@ metadata:
 
   name: todo-deployment
 
+  namespace: todo-list
+
   labels:
 
     app: todo-app
